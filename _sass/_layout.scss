@@ -87,6 +87,7 @@
 
     @include media-query($on-tablet) {
         font-size: $base-font-size - 2;
+        max-width: 90%;
     }
 
     h1 {
