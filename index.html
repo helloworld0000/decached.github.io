@@ -1,0 +1,27 @@
+---
+layout: default
+---
+<div class="container-fluid nopadding blank-space">
+    <img src="/images/home.jpg" class="img-responsive" alt="Responsive image">
+</div>
+<div class="container-fluid nopadding blank-space">
+    <div class="post-title row text-center">
+        <h1>Writings</h1>
+        <h5>Because <strong>"blog"</strong> is too mainstream.</h5>
+    </div>
+    <div class="post-content row text-justify">
+
+        <div id="posts"> 
+            {% for post in site.posts %}
+            <div class="row margin10">
+                <div class="col-sm-8 col-xs-12">
+                    <h4><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+                </div>
+                <div class="col-sm-4 hidden-xs">
+                    <h5 class="pull-right">{{ post.date | date: "%b %-d, %Y" }}</h5>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

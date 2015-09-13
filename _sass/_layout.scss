@@ -1,0 +1,141 @@
+/**
+ * decached.com
+ */
+
+.header {
+    padding: 20px;
+}
+
+.heading-menu {
+    background-color: $background-color;
+    border-color: $background-color;
+    margin: 0 auto;
+    max-width: 66%;
+    margin-bottom: 0px;
+    @include media-query($on-mobile) {
+        max-width: 100%;
+    }
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.blank-space {
+    margin-bottom: 30px !important;
+}
+
+.post-title {
+    letter-spacing: -1px;
+    line-height: 1;
+    max-width: 60%;
+    border-bottom: 1px solid $grey-color;
+    margin: 0 auto 15px auto;
+
+    h1 {
+        font-size: 40px;
+        @include media-query($on-tablet) {
+            font-size: 36px;
+        }
+    }
+
+    h2 {
+        font-size: 36px;
+        @include media-query($on-tablet) {
+            font-size: 32px;
+        }
+    }
+
+    h3 {
+        font-size: 32px;
+        @include media-query($on-tablet) {
+            font-size: 28px;
+        }
+    }
+
+    h4 {
+        font-size: 28px;
+        @include media-query($on-tablet) {
+            font-size: 24px;
+        }
+    }
+
+    h5 {
+        font-size: 24px;
+        @include media-query($on-tablet) {
+            font-size: 20px;
+        }
+    }
+
+
+}
+
+.post-meta {
+    font-size: $small-font-size;
+    color: $grey-color-dark;
+}
+
+
+.post-content {
+    margin: 0 auto;
+    max-width: 60%;
+    line-height: $base-line-height + 0.5;
+    font-family: $font-family-muli;
+    font-size: $base-font-size;
+    font-weight: $base-font-weight;
+
+    @include media-query($on-tablet) {
+        font-size: $base-font-size - 2;
+    }
+
+    h1 {
+        font-size: 36px;
+
+        @include media-query($on-tablet) {
+            font-size: 32px;
+        }
+    }
+
+    h2 {
+        font-size: 32px;
+
+        @include media-query($on-tablet) {
+            font-size: 28px;
+        }
+    }
+
+    h3 {
+        font-size: 26px;
+
+        @include media-query($on-tablet) {
+            font-size: 22px;
+        }
+    }
+
+    h4 {
+        font-size: 20px;
+
+        @include media-query($on-tablet) {
+            font-size: 18px;
+        }
+    }
+}
+
+.margin10 {
+    margin: 10px;
+}
+
+.footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: $font-family-open-sans;
+    font-size: 90%;
+    border-top: 1px solid $grey-color;
+    padding: 10px;
+
+    p {
+        margin-bottom: 0;
+    }
+}
