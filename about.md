@@ -20,4 +20,4 @@ I’m a struggling poet (and that’s me being very modest). I’m found playing
 guitar or drums, at times. Only music can soothe my nerves. I <s>write</s> used
 to write on Quora.
 
-I'm ***@decached*** on most services. You can find me on [Twitter](https://twitter.com/{{ site.alias }}), [Quora](https://quora.com/{{ site.author | slugify }}), [GitHub](https://github.com/{{ site.alias }}) and [Instagram](https://instagram.com/{{ site.alias }}), or go old school by emailing me at [{{ site.email }}](mailto:{{ site.email }}).
+I'm ***@decached*** on most services. You can find me on [Twitter](https://twitter.com/{{ site.alias }}), [Quora](https://quora.com/{{ site.author | slugify }}), [GitHub](https://github.com/{{ site.alias }}) and [Instagram](https://instagram.com/{{ site.alias }}), or let's [{{ site.email }}](mailto:{{ site.email }})
