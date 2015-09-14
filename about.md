@@ -18,6 +18,9 @@ My spare time is spent reading Comics and fighting with other fans on Facebook
 over it. Occasionally, I updated my knowledge of human anatomy, finance, music.
 I’m a struggling poet (and that’s me being very modest). I’m found playing
 guitar or drums, at times. Only music can soothe my nerves. I <s>write</s> used
-to write on Quora.
+to write on Quora back when I was in college, but I gave up. I'll be resuming
+soon, so keep an eye.
 
 I'm ***@decached*** on most services. You can find me on [Twitter](https://twitter.com/{{ site.alias }}), [Quora](https://quora.com/{{ site.author | slugify }}), [GitHub](https://github.com/{{ site.alias }}) and [Instagram](https://instagram.com/{{ site.alias }}), or let's [{{ site.email }}](mailto:{{ site.email }})
+
+I also have a personal blog [kothawale.com](https://kothawale.com).
