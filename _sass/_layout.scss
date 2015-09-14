@@ -12,6 +12,11 @@
     margin: 0 auto;
     max-width: 66%;
     margin-bottom: 0px;
+
+    @include media-query($on-tablet) {
+        max-width: 85%;
+    }
+    
     @include media-query($on-mobile) {
         max-width: 100%;
     }
