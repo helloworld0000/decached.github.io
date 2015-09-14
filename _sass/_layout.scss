@@ -33,6 +33,11 @@
     border-bottom: 1px solid $grey-color;
     margin: 0 auto 15px auto;
 
+    @include media-query($on-tablet) {
+        font-size: $base-font-size - 2;
+        max-width: 85%;
+    }
+
     h1 {
         font-size: 40px;
         @include media-query($on-tablet) {
