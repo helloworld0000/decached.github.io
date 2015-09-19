@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="container-fluid nopadding blank-space">
-    <img src="{{ page.image }}" class="img-responsive" alt="Responsive image">
+    {% if page.image %}<img src="{{ page.image }}" class="img-responsive">{% endif %}
 </div>
 <div class="container-fluid nopadding blank-space">
     <div class="post-title row text-center">
