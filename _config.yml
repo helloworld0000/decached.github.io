@@ -5,11 +5,8 @@ alias: decached
 email: io@decached.com
 dp: https://s.gravatar.com/avatar/d7e35b17d3d8c8164e546648264fb88b?s=800
 description: Terrible Poet, Musician, Comic Nerd, Engineer.
-baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://decached.com" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-permalink: /writings/:title/
-gems:
-    - jekyll-sitemap
+permalink: /:categories/:title/

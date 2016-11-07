@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Facebook on Terminal
-category: tech
+category: writings
 tags: [facebook, python]
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Facebook Timeline, Enable It Within Seconds
-category: tech
+category: writings
 tags: [facebook]
 ---
 
