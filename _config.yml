@@ -6,7 +6,7 @@ username: helloworld0000
 email: 167298@supinfo.com
 description: Programmer,python,data mining.
 url: "https://helloworld0000.github.io/" # the base hostname & protocol for your site
-
+encoding: UTF-8
 # Build settings
 markdown: kramdown
 permalink: /:categories/:title/
