@@ -1,2 +1,2 @@
 User-agent: *
-Disallow: /kothawale.com/
+Disallow: /https://helloworld0000.github.io/.com/
