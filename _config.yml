@@ -4,7 +4,7 @@ author: XU MING
 alias: MING
 username: MING
 email: 167298@supinfo.com
-dp:images/icon.jpg
+dp:'images/icon.jpg'
 description: Programmer,python,data mining.
 url: "https://helloworld0000.github.io/" # the base hostname & protocol for your site
 
