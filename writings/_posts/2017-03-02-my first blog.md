@@ -8,6 +8,10 @@ tags: [git]
 ## 心情灰常的激动哈哈
 今天我 新建了自己的gitblog 虽然很简单还是挺激动的，以后要坚持写博客，就像坚持写日记一样哈哈。
 
+![](http://img.hb.aicdn.com/4f5e461aa78bf39fd389fc8151defe5d0ccc8dec615af-d6wal5_fw658)
+
+
+
 
 
 ## MarkDown 语法的使用
