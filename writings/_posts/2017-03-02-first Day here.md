@@ -5,4 +5,4 @@ category: writings
 tags: [git]
 ---
 
-wawahappywawa
+今天是第一天弄好 github page
